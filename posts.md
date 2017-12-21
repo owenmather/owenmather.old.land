@@ -1,7 +1,7 @@
 ---
 
-title: Posts
-permalink: /Posts/
+title: posts
+permalink: /posts/
 ---
 
 {% for post in site.posts %}
@@ -11,7 +11,7 @@ permalink: /Posts/
   {% capture prev_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
   {% if forloop.first %}
-    #### {{ this_month }} {{ this_year }}
+    <h4>{{ this_month }} {{ this_year }}</h4>
     <ul>
   {% endif %}
 
