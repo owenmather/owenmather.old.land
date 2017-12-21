@@ -1,6 +1,5 @@
 ---
 layout: default
-theme: jekyll-theme-cayman
 title: Owen
 ---
 
