@@ -12,7 +12,6 @@ permalink: /Posts/
 
   {% if forloop.first %}
     <h4>{{ this_month }} {{ this_year }}</h4>
-    <ul>
   {% endif %}
   <li class='mbhalf'><a href="{{ post.url }}" class="black">{{ post.title }}</a></li>
 
