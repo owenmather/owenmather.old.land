@@ -1,6 +1,3 @@
----
-theme: jekyll-theme-cayman
----
 <!DOCTYPE html>
 	<html>
 		<head>
